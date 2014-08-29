@@ -16,7 +16,7 @@ public class ParserExample {
 	public static void main(String[] args) {
 		try {
 			Composite page = new ParserService().doPars("index.jsp");
-			page.read();
+			page.print();
 
 		} catch (DataValidException e) {
 			e.printStackTrace();

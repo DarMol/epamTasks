@@ -11,7 +11,7 @@ public class TextLeaf implements Component {
 	private String text;
 
 	@Override
-	public void read() {
+	public void print() {
 		logger.info(text);
 	}
 

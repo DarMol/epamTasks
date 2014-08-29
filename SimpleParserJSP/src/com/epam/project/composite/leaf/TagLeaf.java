@@ -121,7 +121,7 @@ public class TagLeaf implements Component {
 	}
 
 	@Override
-	public void read() {
+	public void print() {
 		logger.info(this.toString());
 	}
 

@@ -7,9 +7,9 @@ public class Composite implements Component {
 	private List<Component> components = new ArrayList<Component>();
 
 	@Override
-	public void read() {
+	public void print() {
 		for (int i = 0; i < components.size(); i++) {
-			components.get(i).read();
+			components.get(i).print();
 		}
 	}
 
